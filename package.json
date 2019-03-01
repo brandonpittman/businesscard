@@ -1,14 +1,14 @@
 {
-  "name": "bitandbang",
+  "name": "brandonpittman",
   "version": "1.3.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "description": "A personal card for Brandon Pittman (@brandonpittman)",
   "main": "/bin/card.js",
   "bin": {
     "bitandbang": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/brandonpittman/brandonpittman.git"
   },
   "scripts": {
     "prepublish": "npm run build",
@@ -25,7 +25,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Tierney Cyren (http://brandonpittman.net)",
   "license": "MIT",
   "files": [
     "bin/card.js",
