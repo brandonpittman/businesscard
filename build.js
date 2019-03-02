@@ -18,7 +18,7 @@ const data = {
   name: chalk.white('               Brandon Pittman'),
   handle: chalk.white('brandonpittman'),
   work: chalk.white('Assistant Director at Aquaring Global Strategy'),
-  opensource: chalk.white('Frontend Nagoya ') + chalk.green('⬢'),
+  opensource: chalk.white('OmniFocus | Gridsome | Tailwind | PurgeCSS') + chalk.green('⬢'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('brandonpittman'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~brandonpittman'),
   github: chalk.gray('https://github.com/') + chalk.green('brandonpittman'),
@@ -51,7 +51,7 @@ const carding = `${data.labelCard}  ${data.npx}`
 const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                working + newline + // data.labelWork + data.work
-               // opensourcing + newline + newline + // data.labelOpenSource + data.opensource
+               opensourcing + newline + newline + // data.labelOpenSource + data.opensource
                twittering + newline + // data.labelTwitter + data.twitter
                npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
