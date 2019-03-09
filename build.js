@@ -34,7 +34,7 @@ const data = {
   labelTwitter: chalk.white.bold('    Twitter:'),
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
-  labelLinkedIn: chalk.white.bold('   LinkedIn:'),
+  //  labelLinkedIn: chalk.white.bold('   LinkedIn:'),
   labelWantedly: chalk.white.bold('   Wantedly'),
   labelWeb: chalk.white.bold('        Web:'),
   labelCard: chalk.white.bold('       Card:')
@@ -69,8 +69,12 @@ const output =
   newline +
   githubing +
   newline +
-  wantedlying
-webing + newline + newline + carding
+  wantedlying +
+  newline +
+  webing +
+  newline +
+  newline +
+  carding
 
 fs.writeFileSync(
   path.join(__dirname, 'bin/output'),
