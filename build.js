@@ -15,7 +15,7 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Brandon Pittman'),
+  name: chalk.white('              Brandon Pittman'),
   handle: chalk.white('brandonpittman'),
   work: chalk.white('Assistant Director at Aquaring Global Strategy'),
   opensource:
@@ -35,7 +35,7 @@ const data = {
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
   //  labelLinkedIn: chalk.white.bold('   LinkedIn:'),
-  labelWantedly: chalk.white.bold('   Wantedly'),
+  labelWantedly: chalk.white.bold('   Wantedly:'),
   labelWeb: chalk.white.bold('        Web:'),
   labelCard: chalk.white.bold('       Card:')
 }
