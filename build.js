@@ -17,7 +17,7 @@ const options = {
 const data = {
   name: chalk.white('              Brandon Pittman'),
   handle: chalk.white('brandonpittman'),
-  work: chalk.white('Assistant Director at Aquaring Global Strategy'),
+  work: chalk.white('Web Director @ Aquaring Global Strategy'),
   opensource:
     chalk.white('OmniFocus | Gridsome | Tailwind | PurgeCSS ') +
     chalk.green('⬢'),
