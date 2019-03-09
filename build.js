@@ -55,27 +55,22 @@ const carding = `${data.labelCard}  ${data.npx}`
 
 // Put all our output together into a single variable so we can use boxen effectively
 const output =
-  heading + // data.name + data.handle
+  heading +
   newline +
-  newline + // Add one whole blank line
+  newline +
   working +
-  newline + // data.labelWork + data.work
+  newline +
   opensourcing +
   newline +
-  newline + // data.labelOpenSource + data.opensource
+  newline +
   twittering +
-  newline + // data.labelTwitter + data.twitter
+  newline +
   npming +
-  newline + // data.labelnpm + data.npm
+  newline +
   githubing +
-  newline + // data.labelGitHub + data.github
   newline +
   wantedlying
-// linkedining + newline + // data.labelLinkedIn + data.linkedin
-webing +
-newline +
-newline + // data.labelWeb + data.web
-  carding // data.labelCard + data.npx
+webing + newline + newline + carding
 
 fs.writeFileSync(
   path.join(__dirname, 'bin/output'),
