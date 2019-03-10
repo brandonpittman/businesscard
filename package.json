@@ -25,7 +25,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren (http://brandonpittman.net)",
+  "author": "Brandon Pittman (https://brandonpittman.net)",
   "license": "MIT",
   "files": [
     "bin/card.js",
