@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brandonpittman/brandonpittman.git"
+    "url": "https://github.com/brandonpittman/businesscard.git"
   },
   "scripts": {
     "prepublish": "npm run build",
