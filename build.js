@@ -17,9 +17,9 @@ const options = {
 const data = {
   name: chalk.white('              Brandon Pittman'),
   handle: chalk.white('brandonpittman'),
-  work: chalk.white('Web Director @ Aquaring Global Strategy'),
+  work: chalk.white('Director @ Aquaring Global Strategy'),
   opensource:
-    chalk.white('OmniFocus | Gridsome | Tailwind | PurgeCSS ') +
+    chalk.white('Gridsome | Tailwind | PurgeCSS ') +
     chalk.green('⬢'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('brandonpittman'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~brandonpittman'),
@@ -27,7 +27,7 @@ const data = {
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
   wantedly:
     chalk.gray('https://www.wantedly.com/users/') + chalk.blue('80873258'),
-  web: chalk.cyan('https://brandonpittman.net'),
+  web: chalk.cyan('https://blp.is/here'),
   npx: chalk.red('npx') + ' ' + chalk.white('brandonpittman'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
