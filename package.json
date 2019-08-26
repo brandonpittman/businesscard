@@ -1,0 +1,39 @@
+{
+  "name": "brandonpittman",
+  "version": "1.3.12",
+  "description": "A personal card for Brandon Pittman (@brandonpittman)",
+  "main": "/bin/card.js",
+  "bin": {
+    "bitandbang": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonpittman/businesscard.git"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Brandon Pittman (https://brandonpittman.net)",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "standard": "^12.0.1"
+  }
+}
