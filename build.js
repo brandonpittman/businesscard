@@ -27,7 +27,7 @@ const data = {
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
   wantedly:
     chalk.gray('https://www.wantedly.com/users/') + chalk.blue('80873258'),
-  web: chalk.cyan('https://brandonpittman.net'),
+  web: chalk.cyan('https://blp.is'),
   npx: chalk.red('npx') + ' ' + chalk.white('brandonpittman'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
